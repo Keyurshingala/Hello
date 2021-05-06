@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Dialogs</string>
+    <string name="simple_alert_dialog">simple alert dialog</string>
+    <string name="single_choice_selection">Single choice selection</string>
+    <string name="city">City</string>
+    <string name="date_picker">Date picker</string>
+    <string name="multi_choice_selection">Multi choice selection</string>
+    <string name="date_picker_1">Date picker one</string>
+    <string name="date_picker_2">Date picker two</string>
+    <string name="date_diff">Date Diff</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="time_pciker">Time pciker</string>
+    <string name="in_time">In Time</string>
+    <string name="out_time">Out Time</string>
+    <string name="total_time">Total Time</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="share_your_feedback">Share Your Feedback</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="Languages">
+        <item> C </item>
+        <item> C++ </item>
+        <item> Java </item>
+        <item> Kotlin </item>
+        <item> JavaScript </item>
+    </string-array>
+
+    <string-array name="City">
+        <item>Jamnagar</item>
+        <item>Junagadh</item>
+        <item>Kutch</item>
+        <item>Kheda</item>
+        <item>Mehsana</item>
+    </string-array>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSimpleAlertDialog"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/simple_alert_dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSingleChoiceSelection"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/single_choice_selection"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etDatePicker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:hint="@string/date_picker_1" />
+
+    <EditText
+        android:id="@+id/etDatePicker2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:hint="@string/date_picker_2" />
+
+    <Button
+        android:id="@+id/btnDateDiff"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/date_diff"
+        android:textAllCaps="false"
+        android:textColor="@color/teal_200" />
+
+    <Button
+        android:id="@+id/btnMultiChoiceSelection"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/multi_choice_selection"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCustomToast"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/custom_toast"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etTimePickerIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cursorVisible="false"
+            android:hint="@string/in_time"
+            android:onClick="onButtonClicked" />
+
+        <EditText
+            android:id="@+id/etTimePickerOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cursorVisible="false"
+            android:hint="@string/out_time"
+            android:onClick="onButtonClicked" />
+
+        <Button
+            android:id="@+id/btnTotalTime"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onButtonClicked"
+            android:text="@string/total_time"
+            android:textAllCaps="false"
+            android:textColor="@color/teal_200" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCustomDialog"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClicked"
+        android:text="@string/custom_dialog"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
